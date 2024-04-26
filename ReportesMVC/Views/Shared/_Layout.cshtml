@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - ReportesMVC</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/menu.css" asp-append-version="true" />
+</head>
+<body>
+
+	<div class="d-flex">
+		<div class="menu">
+			<div class="top-nav">
+				<a href="#">
+					<i class="fa fa-home"></i>
+				</a>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="/Persona/Index">Reporte Excel Filtro</a>
+					</li>
+					<li>
+						<a href="/Persona/ExcelCheck">Reporte Excel Check</a>
+					</li>
+					<li>
+						<a href="/Persona/ExcelCheckMultiplesHojas">Excel Multiples Hojas</a>
+					</li>
+					<li>
+						<a href="/Persona/ExcelCheckComprimido">Excel Check Comprimido</a>
+					</li>
+					<li>
+						<a href="/Persona/CorreoEnvioExcel">Envio Correo Excel</a>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+					</li>
+					<li>
+						<a href="#">Contacts</a>
+					</li>
+					<li>
+						<a href="#">Services</a>
+					</li>
+					<li>
+						<a href="#">Map</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="bottom-nav">
+				<a href="#"><i class="fa fa-whatsapp-square"></i></a>
+				<a href="#"><i class="fa fa-youtube"></i></a>
+				<a href="#"><i class="fa fa-google-plus-square"></i></a>
+				<a href="#"><i class="fa fa-vk"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-tumblr"></i></a>
+				<a href="#"><i class="fa fa-pinterest-p"></i></a>
+			</div>
+		</div>
+		<div class="container">
+			<main role="main" class="pb-3">
+				@RenderBody()
+			</main>
+			<input type="hidden" id="hdfOculto" value="@Url.Content("~")" />
+
+
+			<div id="divLoading" style="display:none;background-image:url(../img/loading.gif);position:absolute;top:0;left:0;
+            width:100%;height:100%;
+             background-repeat:no-repeat;background-position:center;z-index:2000">
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
