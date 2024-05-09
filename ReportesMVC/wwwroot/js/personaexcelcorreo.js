@@ -32,13 +32,22 @@ function listarPersonas() {
 }
 
 function rowClickEvent(obj) {
-	fetchGet("Persona/enviarCorreo/?id=" + obj.iidpersona + "&correo=" + obj.correo, "text", function (data) {
-		if (data == "Se envio el Correo satisfactoriamente") {
-			Exito(data)
-		} else {
-			Error(data)
-		}
+	Confirmacion("Confirmacion", "Desea enviar el correo a " + obj.nombre + " " + obj.appaterno + " " + obj.apmaterno, function () {
+		fetchGet("Persona/enviarCorreo/?id=" + obj.iidpersona + "&correo=" + obj.correo, "text", function (data) {
+			if (data == "Se envio el Correo satisfactoriamente") {
+				Exito(data)
+			} else {
+				Error(data)
+			}
+		})
 	})
+	//fetchGet("Persona/enviarCorreo/?id=" + obj.iidpersona + "&correo=" + obj.correo, "text", function (data) {
+	//	if (data == "Se envio el Correo satisfactoriamente") {
+	//		Exito(data)
+	//	} else {
+	//		Error(data)
+	//	}
+	//})
 
 	//fetchGet("Persona/generarReportePorId/?id=" + obj.iidpersona, "text", function (data) {
 	//	var a = document.createElement("a");

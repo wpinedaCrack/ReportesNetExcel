@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OfficeOpenXml;
+using OfficeOpenXml.Style;
 using ReportesMVC.Models;
 using ReportesMVC.Reportes;
 
@@ -27,6 +28,74 @@ namespace ReportesMVC.Controllers
         {
             return View();
         }
+
+        public IActionResult PreviewExcel()
+        {
+            return View();
+        }
+
+        public string leerExcel(IFormFile excel)
+        {
+            string rpta = "", negrita = "", bordeTop = "", bordeBottom = "", bordeRight = "", bordeLeft = "",
+                horizontalCenter = "", horizontalRight = "";
+
+            byte[] buffer;
+            using (MemoryStream ms = new MemoryStream())
+            {
+                excel.CopyTo(ms);
+                buffer = ms.ToArray();
+            }
+            using (MemoryStream ms = new MemoryStream(buffer))
+            {
+                using (ExcelPackage ep = new ExcelPackage(ms))
+                {
+                    ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+                    var ew1 = ep.Workbook.Worksheets[0];
+                    int ncolumnas = ew1.Dimension.End.Column;
+                    int nfilas = ew1.Dimension.End.Row;
+                    //    | -> Columnas
+                    //    ¬ ->Filas
+                    for (int i = 1; i <= nfilas; i++)
+                    {
+                        for (int j = 1; j <= ncolumnas; j++)
+                        {
+                            if (ew1.Cells[i, j].Style.Font.Bold == true) negrita += "n" + i + "¬" + j + "|";
+                            rpta += ew1.Cells[i, j].Value;
+                            if (ew1.Cells[i, j].Style.Border.Top.Style != ExcelBorderStyle.None)
+                                bordeTop += "bt" + i + "¬" + j + "|";
+                            if (ew1.Cells[i, j].Style.Border.Bottom.Style != ExcelBorderStyle.None)
+                                bordeBottom += "bb" + i + "¬" + j + "|";
+                            if (ew1.Cells[i, j].Style.Border.Right.Style != ExcelBorderStyle.None)
+                                bordeRight += "br" + i + "¬" + j + "|";
+                            if (ew1.Cells[i, j].Style.Border.Left.Style != ExcelBorderStyle.None)
+                                bordeLeft += "bl" + i + "¬" + j + "|";
+                            if (ew1.Cells[i, j].Style.HorizontalAlignment == ExcelHorizontalAlignment.Center)
+                                horizontalCenter += "hc" + i + "¬" + j + "|";
+                            if (ew1.Cells[i, j].Style.HorizontalAlignment == ExcelHorizontalAlignment.Right)
+                                horizontalRight += "hr" + i + "¬" + j + "|";
+                            rpta += "|";
+                        }
+                        rpta = rpta.Substring(0, rpta.Length - 1);
+                        rpta += "¬";
+                    }
+                    rpta = rpta.Substring(0, rpta.Length - 1);
+                    rpta += "_";
+                    //Estilos
+                    if (negrita != "") rpta += negrita.Substring(0, negrita.Length - 1) + "";
+                    if (bordeTop != "") rpta += "|" + bordeTop.Substring(0, bordeTop.Length - 1) + "";
+                    if (bordeBottom != "") rpta += "|" + bordeBottom.Substring(0, bordeBottom.Length - 1) + "";
+                    if (bordeRight != "") rpta += "|" + bordeRight.Substring(0, bordeRight.Length - 1) + "";
+                    if (bordeLeft != "") rpta += "|" + bordeLeft.Substring(0, bordeLeft.Length - 1) + "";
+                    if (horizontalCenter != "") rpta += "|" + horizontalCenter.Substring(0,
+                        horizontalCenter.Length - 1) + "";
+                    if (horizontalRight != "") rpta += "|" + horizontalRight.Substring(0,
+                        horizontalRight.Length - 1) + "";
+
+                }
+            }
+            return rpta;
+        }
+
 
         public string enviarCorreo(int id, string correo)
         {

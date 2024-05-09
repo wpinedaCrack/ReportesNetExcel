@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\js\\personaexcelcorreo.js"
     },
     {
+      "Id": "D:\\UdemyFull\\_CSharReciente\\Reportes_NetExcelPdf\\ReportesMVC\\ReportesMVC\\wwwroot\\js\\previewexcel.js",
+      "PackagePath": "staticwebassets\\js\\previewexcel.js"
+    },
+    {
       "Id": "D:\\UdemyFull\\_CSharReciente\\Reportes_NetExcelPdf\\ReportesMVC\\ReportesMVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

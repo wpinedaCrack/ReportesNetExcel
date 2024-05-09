@@ -69,14 +69,6 @@ E:\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Syste
 E:\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.csproj.AssemblyReference.cache
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.GeneratedMSBuildEditorConfig.editorconfig
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.AssemblyInfoInputs.cache
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.AssemblyInfo.cs
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.csproj.CoreCompileInputs.cache
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.MvcApplicationPartsAssemblyInfo.cache
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.RazorAssemblyInfo.cache
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.RazorAssemblyInfo.cs
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\appsettings.Development.json
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\appsettings.json
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\ReportesMVC.staticwebassets.runtime.json
@@ -85,6 +77,7 @@ D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Deb
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\ReportesMVC.runtimeconfig.json
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\ReportesMVC.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\ReportesMVC.pdb
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\EPPlus.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Humanizer.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -98,6 +91,7 @@ D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Deb
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -106,6 +100,7 @@ D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Deb
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\System.Security.Permissions.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -118,6 +113,14 @@ D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Deb
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.csproj.AssemblyReference.cache
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.AssemblyInfoInputs.cache
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.AssemblyInfo.cs
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.csproj.CoreCompileInputs.cache
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.RazorAssemblyInfo.cache
+D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.RazorAssemblyInfo.cs
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\staticwebassets\msbuild.ReportesMVC.Microsoft.AspNetCore.StaticWebAssets.props
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\staticwebassets\msbuild.build.ReportesMVC.props
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ReportesMVC.props
@@ -132,6 +135,3 @@ D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Deb
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.pdb
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ReportesMVC.genruntimeconfig.cache
 D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\obj\Debug\net6.0\ref\ReportesMVC.dll
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\EPPlus.dll
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
-D:\UdemyFull\_CSharReciente\Reportes_NetExcelPdf\ReportesMVC\ReportesMVC\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll

@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "PreviewExcel";
+}
+
+<h1>PreviewExcel</h1>
+
+<form method="post" id="frmPreview">
+    <label>Seleccione un Archivo Excel para Realizar Preview</label>
+    <input type="file" accept=".xlsx" name="excel" />
+</form>
+
+<button class="btn btn-primary" onclick="EnviarArchivoExcel()">Preview Excel</button>
+
+<div id="divTabla">
+</div>
+
+<script src="~/js/generic.js"></script>
+<script src="~/js/previewexcel.js"></script>

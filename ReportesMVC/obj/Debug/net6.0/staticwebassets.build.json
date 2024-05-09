@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kWMylQzHlHv/mczBbueohiYwP9tQ77/krZkG4r5JTxE=",
+  "Hash": "xLLZfd1gVQoCvzJg91F28ssy6+x1T4nlJynr1qWIcmA=",
   "Source": "ReportesMVC",
   "BasePath": "_content/ReportesMVC",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\personaexcelcorreo.js"
+    },
+    {
+      "Identity": "D:\\UdemyFull\\_CSharReciente\\Reportes_NetExcelPdf\\ReportesMVC\\ReportesMVC\\wwwroot\\js\\previewexcel.js",
+      "SourceId": "ReportesMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UdemyFull\\_CSharReciente\\Reportes_NetExcelPdf\\ReportesMVC\\ReportesMVC\\wwwroot\\",
+      "BasePath": "_content/ReportesMVC",
+      "RelativePath": "js/previewexcel.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\previewexcel.js"
     },
     {
       "Identity": "D:\\UdemyFull\\_CSharReciente\\Reportes_NetExcelPdf\\ReportesMVC\\ReportesMVC\\wwwroot\\js\\site.js",
